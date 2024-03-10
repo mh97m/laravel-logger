@@ -4,7 +4,7 @@ namespace Mh97m\Laravelogger;
 
 use Illuminate\Support\ServiceProvider;
 
-class LoggerServiceProvider extends ServiceProvider
+class LaraveloggerServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.

@@ -1,16 +1,16 @@
 {
     "name": "mh97m/laravelogger",
     "keywords": [
-        ":mh97m",
-        ":laravelogger"
+        "mh97m",
+        "laravelogger"
     ],
     "description": "The Laravel Logger project is a robust logging solution tailored for Laravel applications, designed to provide comprehensive monitoring, tracking, and analysis of system activities and events. Developed with the Laravel framework, this logging system offers seamless integration, ensuring smooth operation within Laravel-based projects.",
     "homepage": "https://github.com/mh97m/laravelogger",
     "type": "library",
-    "license": "MIT License",
+    "license": "MIT",
     "authors": [
         {
-            "name": "Mohamad hosein montazeri",
+            "name": "Mohamad Hosein Montazeri",
             "email": "mh97montazeri@gmail.com"
         }
     ],
@@ -24,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            ":Mh97m\\Laravelogger\\": "src"
+            "Mh97m\\Laravelogger\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            ":Mh97m\\Laravelogger\\Tests\\": "tests"
+            "Mh97m\\Laravelogger\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -42,11 +42,12 @@
     "extra": {
         "laravel": {
             "providers": [
-                ":Mh97m\\Laravelogger\\Facades\\LoggerServiceProvider"
+                "Mh97m\\Laravelogger\\LaraveloggerServiceProvider"
             ],
             "aliases": {
-                "Laravelogger": ":Mh97m\\Laravelogger\\Facades\\Logger"
+                "Laravelogger": "Mh97m\\Laravelogger\\LaraveloggerFacades"
             }
         }
-    }
+    },
+    "minimum-stability": "dev"
 }

@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Facade;
 /**
  * @see \:vendor_namespace\Skeleton\SkeletonClass
  */
-class Logger extends Facade
+class Laravelogger extends Facade
 {
     /**
      * Get the registered name of the component.

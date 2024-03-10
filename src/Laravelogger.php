@@ -2,7 +2,7 @@
 
 namespace Mh97m\Laravelogger;
 
-class Logger
+class Laravelogger
 {
     public function run()
     {
